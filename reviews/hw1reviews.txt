@@ -1,0 +1,78 @@
+[Reviewed 09/04/24 06:05 AM CEST]
+synopsis: you're done
+
+details:
+
+yay
+
+------------------------------------------------------------------------------
+[Reviewed 09/03/24 04:43 AM CEST]
+synopsis: a few things to improve
+
+details:
+
+1.
+
+Is there an economic impact, time to market impact, reputation impact?
+
+2.
+
+Any impact on testability?
+
+Any impact on extensibility?
+
+The word scalability means something very different in general than what it is implied to be here in this writing.
+
+3.
+
+Please spellcheck.
+
+"a pieve of code has" piece
+
+Can it be loosely coupled and also have a large number of outgoing dependencies?
+
+Any impact on stability of the code? Also, the cost of keeping up with changes from the parts it depends on?
+
+4.
+
+Does that make the code rigid, more resistant to change?
+
+------------------------------------------------------------------------------
+[Reviewed 09/02/24 05:43 AM CEST]
+synopsis: good work so far
+
+details:
+
+1.
+
+"The consequence of having low cohesion is it can lead to codependence. Since modules do a lot of things they can step into other modules roles which can lead one module to depend on another. " It would be the opposite, right? If a module does a lot, it will have to depend on other modules less (not necessarily good or bad, but it is the opposite of what we suggest).
+
+The last paragraph is good. Let us continue to discuss the benefits to an organization or a team.
+
+2.
+
+Any impact on testability?
+
+Any impact on extensibility?
+
+The word scalability means something very different in general than what it is implied to be here in this writing.
+
+------------------------------------------------------------------------------
+[Reviewed 09/01/24 11:56 AM CEST]
+synopsis: let's write in multiple short paragraphs
+
+details:
+
+Let's write in multiple short paragraphs where each paragraph focuses on one concept, idea, thought, etc.
+
+Please spellcheck.
+
+------------------------------------------------------------------------------
+[Reviewed 08/31/24 07:25 AM MDT]
+synopsis: did not find anything to review
+
+details:
+
+Did not find anything to review yet.
+
+------------------------------------------------------------------------------

@@ -1,0 +1,94 @@
+Assign4: Due 11:59PM CT November 22
+
+***Please review the top part of ../hw1/hw1.txt***
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late.
+
+In this assignment we will design a logical characters processor. The processor will receive a series of characters as input and produce a series of characters as output. The processor may house any number of processing blocks. Not all blocks that are available may be used when creating a processor. Also, a block may be used more than once. The order in which the blocks are used may also vary.
+                                                            
+
+		...input... -> | block1 block2 block3 ... | -> ...output...
+                           Processor
+
+Let's discuss some examples of blocks and then revisit the processor.
+
+1. UpperCaseConverter Block
+	Given a character, this block will send out or return the character in uppercase.
+
+2. LowerCaseConverter Block
+	Given a character, this block will send out or return the character in lowercase.
+	
+3. Multiplier Block
+  Given a character, this block will send out or return two of the same character. For example, if it received 'a', it will produce 'aa'. If it receives '1', it will produce '11'.
+
+4. z-blocker Block
+  Given a character, if the character is a lowercase 'z', this block will not return or produce anything. If it is any other character, it will produce the given character as output. For example, 'a' will result in an output of 'a'.
+
+5. Z-blocker Block
+	This block will not return or produce an output if the character given is an uppercase 'Z'.
+	
+6. k-blocker Block
+   This block will not return or produce an output if the character given is lowercase 'k'.
+
+The program should allow end users to create other similar blocks they like.
+
+The end user should be able to create a processor using any series of blocks.
+
+For example, a user may create a processor with the following series of blocks:
+	UpperCaseConverter - Z-blocker - LowerCaseConverter
+	
+After creating this processor, if a user were to send the following series of characters as input:
+
+	11abcdabcdabcdzzaazzabcd
+
+it will return the following output:
+
+	11abcdabcdabcdaaabcd
+
+In addition to designing a few sample blocks and the processor, we will create a console based driver program.
+	
+Design the program in such a way that:
+
+1. A user can specify the blocks available for use before the program starts. This should include pre-defined blocks and user created blocks.
+
+2. The user can specify, through a file, the blocks they'd like to use and the order or sequence in which they'd like to use them.
+
+Think through the overall design of the program first. Then start with one small, but interesting and valuable part, and evolve the design and code incrementally.
+
+After completing the assignment answer these questions:
+
+1. What did you learn in this assignment?
+
+We learned that applying patterns is not a rigid application of idea structures, but a more natural and organic process that lends itself to the design process more than dictating it.
+
+We think that patterns can be a good source of inspiration for structure and can help us create designs to meet our needs, as opposed to us having to design to meet their strict structure definitions.
+
+While designing the blocks, we encountered a challenge in determining how to implement extensibility for the character_blocker. The Decorator pattern provided a valuable framework for achieving this by allowing us to dynamically add or modify behavior. This approach enabled us to create reusable and flexible blocks that could be combined in various ways to handle diverse processing needs.
+
+2. What design principles did you use? List each one of them, discuss what this principle is, and give example(s) of where specifically you used it in this assignment.
+
+YAGNI is you aren't going to need it and it is used to limit us writing code that is not necessary which helps from over coding and adding unneeded complexity. YAGNI was used when we wrote a processor function in another file. When we got the feedback and saw process_text test then saw a processor test. We added another function when we should have asked ourselves the purpose of adding a function and realizing we weren't going to need it.
+
+Open Closed Principle is a principle that states we should be open to extension but closed to modification. It is a principle that seeks to be able to add new functionality without needed to go back to previous code to change it. This is to prevent having code that will constantly need to be refactored. We used OCP when we designed our blocks. We wanted to be open for extensibility but closed to modification. We split up our blocks with the same naming convention so we could add more blocks without changing any of our previously existing blocks. We would also not have to change our fetch_block.py as long as we kept the naming convention of blocks consistent.
+
+Don't repeat yourself is a principle that reduces duplicate code by making repeative logic into reusable code. This principle helps with maintainability since we would not need to go to many places to replace code if we needed to fix it. We used DRY for our blocker blocks. Since the logic of our blocker blocks was the same just changing the character, we ended up repeating ourselves when we wrote the blocks. So we refactored the code to include a character_blocker which as used a helper function. This helped us not repeat ourselves as we included more characters and helped prevent us repeating ourselves if we extended to more characters.
+
+Single Responsibility Principle helps each file have one clear responsibility. This helped each file be very focused and maintainable. We used SRP by splitting up our blockers into separate file so that they only had one responsibility. This helped us also keep OCP and let us have more readable and less complex code. The code was easier to read because when you went to each file you clearly saw what the file was blocking.
+
+3. What design patterns did you use? List each one of them, discuss what this pattern is, and give example(s) of where specifically you used it in this assignment.
+
+A Decorator pattern adds functionality of objects without changing their structure dynamically. Our process_text function would qualify as a decorator since we can add more and more blocks and it can be dynamically applied based on our users needs. We can add behavior to our input without affecting the other blocks.
+
+A Factory pattern provides an interface to create objects without specifying their exact class. In this case, it dynamically loads block implementations based on user input. The fetch_block function dynamically imports and returns the block specified by the user.
+
+A Composite pattern lets us compose objects into tree structures to represent part-whole hierarchies. It allows clients to treat individual objects and compositions of objects uniformly. The way blocks are treated as individual components that are combined into a single processor pipeline in process_text aligns with the Composite Pattern, as each block acts like a "leaf" in the composition, while the entire processor acts as the "composite" that combines them.
+
+Total [100]: 90
+Program works as expected [10]:
+Program is graceful on failure [10]: -10
+All tests pass [10]:
+Test quality [10]:
+Code coverage [10]:
+Design quality [10]:
+Designed for extensibility without code change [20]:
+Code quality [10]:
+Response to questions [10]:

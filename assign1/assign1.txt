@@ -1,0 +1,49 @@
+Assign1: Due 11:59PM CT September 27 [Extended 11:59PM CT October 4]
+
+***Please review the top part of ../hw1/hw1.txt***
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late. Please use as many reviews as you possibly can.***
+
+Using Test First Development (no code without test first) let's implement the problem designed in hw2. Feel free to evolve that design and use judgment to make changes based on the improved understanding and learning. You are not required to use any of the design idea or languages you mentioned in hw2, apply decisions based on your renewed learnings.
+
+Please take small steps and ask for frequent reviews.
+
+First start with a tests list (tests.txt) and a canary test. Implement at most two more tests and minimum code to make those tests to pass. This is a great first step to complete and ask for a review.
+
+After completing the assignment (and only after) let's answer the following questions:
+
+1. What did you learn mainly in this assignment?
+
+We learned to not rush and think too much ahead and break down problems into super small and manageable pieces. We learned cohesion was very important. We learned the value of test driven development to keep complexity down. We learned to avoid strings since typos are not caught by the compiler. We also both learned how to build a GUI for the first time.
+
+2. How is the current design different, if at all, from the strategic design created in hw2?
+
+We had two new classes that we did not account for. We have a class for match which is an enumerate of how many exact matches, present values, and no matches we had in our guesses. We also have an enumerate of the result of each round(Game Over, Game Won, and Game Lost).
+
+I believe our design is different because we didn't account for how having those in the "game logic" would not have been very cohesive. Overall it made the code a lot easier to handle having to implement them in other parts of the code. Looking back on it, if we had not put them in their own class it would have been a massive pain point throughout the project.
+
+
+3. Were there any surprises or things you did not expect along the way? Any particular problem faced, things you had to tackle that you did not expect beforehand?
+
+We did not expect the change in mindset that test driven development was. It felt like the code itself was not hard for unit test in python however the learning curve was teaching our brains to build a small test and build code just enough to pass test case as opposed to just diving straight into coding. Once we got hang of it, we really enjoyed test driven development but in the beginning we had to undo a lot of bad habits. 
+
+Another issue was figuring out good return variables for each function. Our first attempt of returning the code were not as forward thinking to what we ended up with after reviewing a couple of times with Venkat. Reworking the code after the feedback always gave us a better way to tackle the issues, but it was a struggle figuring out how to improve what we would return for the function.
+
+Total [100]: 85
+
+Program runs [10]:
+
+Game works as expected [10]: -10
+The top panel does not show any colors. Nothing happens when a box in the top panel is clicked on.
+
+All tests pass [20]:
+Test quality [15]:
+
+Test for randomness [5]: -2
+We should be able to pass a seed to the select colors function.
+
+Code coverage [10]:
+Code quality [10]:
+Design quality [10]:
+
+Response to questions [10]: -3
+Need to write in short paragraphs and bring out deeper reflection on learnings.

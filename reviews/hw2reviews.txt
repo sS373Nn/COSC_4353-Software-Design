@@ -1,0 +1,101 @@
+[Reviewed 09/12/24 04:52 AM CDT]
+synopsis: let's get some more details into part 3
+
+details:
+
+Diagram:
+Sufficient details
+
+Text:
+
+1.
+Good details
+
+2.
+Good
+
+3.
+
+What library we may use for writing unit tests?
+What build tool we may run to easily run the tests, etc.
+
+------------------------------------------------------------------------------
+[Reviewed 09/10/24 17:24 PM MDT]
+synopsis: aggregation?
+
+details:
+
+Diagram:
+
+Would it make sense for the Display to aggregate GameLogic, so that it can receive user's input, send it over to the logic for computation, and then display the response?
+
+
+------------------------------------------------------------------------------
+[Reviewed 09/10/24 03:46 AM MDT]
+synopsis~: let's check the design
+
+details:
+
+Diagram:
+
+Let us use solid lines instead of dotted lines. Unshaded triangle means inheritance. Are we saying that GameLogic inherit from Display? And, GameLogic inherits from Color?
+
+Let's do a quick review after these changes.
+
+------------------------------------------------------------------------------
+[Reviewed 09/09/24 11:28 AM MDT]
+synopsis: let's tweak the design
+
+details:
+
+Diagram:
+
+Let us use non-shaded arrow for direction and non-shaded triangle for inheritance, instead of shaded arrow.
+
+Assuming the arrow represents direction of association, it is odd for Color (instead of Colors) to be depending on GameLogic.
+
+Display Information can be renamed as Display.
+
+Text:
+
+1.
+
+Good details here. This will change some when the design change is reflected in the diagram.
+
+------------------------------------------------------------------------------
+[Reviewed 09/09/24 05:00 AM MDT]
+synopsis~: No change to diagram?
+
+details:
+
+Diagram:
+
+Did not see any changes to UML_Diagram.png. Please update the diagram, please see feedback below (previous review).
+
+Let's do a quick review after these changes.
+
+------------------------------------------------------------------------------
+[Reviewed 09/08/24 05:15 AM MDT]
+synopsis: let's think through the purpose and benefits
+
+details:
+
+UML Diagram:
+
+Too much details here. Most of these details are useless from the strategic design point of view, clutters the diagram, makes it hard to focus on the essential details. Avoid placing fields and methods in the diagram at this stage of the design.
+
+There is more to Game than Loop. Should we say GameLogic instead to include those?
+
+Is Player really useful. Sure they are the human playing the game, but do we have benefit modeling them within *this* program.
+
+Text:
+
+1.
+Let's start with a short program that sets the context for what we're building.
+
+It will be GUI program and not a console program. Why do we need a "timed" loop? We will count the number of attempts (domain specific term) and not iterations (programming term).
+
+In the text let us provide the reasons, they "why"s that went through our mind in creating the design.
+
+
+------------------------------------------------------------------------------

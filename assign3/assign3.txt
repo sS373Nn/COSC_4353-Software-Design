@@ -1,0 +1,88 @@
+Assign3: Due 11:59PM CT November 1 
+
+***Please review the top part of ../hw1/hw1.txt***
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late. Please use as many reviews as you possibly can.***
+
+
+
+An airport has IATA code (a three letter string), name, city, state, current temperature in F, and delay (true or false). Write a console program that will accept from the user one of different criteria for sorting multiple airport data and printing to the console. The output should have the airport name in all caps, the other details can be in mixed case, as provided.
+
+The criteria that will be provided by the program are, sort by
+0. Nothing (no sorting)
+1. IATA code
+2. Name
+3. City
+4. State
+5. Delay
+6. Temperature
+7. City and Name (if the city is the same then sort by Name)
+
+Write the program such that if we add a new criteria we will have to add new code, but not change any existing files.
+
+Whereas the data may come from different sources in general, we'll assume that the data is present in a separate source code file, the pseudocode for which is given below:
+
+new Airport("IAD", "Dulles Intl", "Washington", "DC", 71, true)
+new Airport("ORD", "O'Hare International", "Chicago", "IL", 62, true)
+new Airport("MDW", "Midway International", "Chicago", "IL", 60, false)
+new Airport("IAH", "George Bush Intercont.", "Houston", "TX", 82, true)
+new Airport("SFO", "San Francisco Intl.", "San Francisco", "CA", 59, false)
+new Airport("LAX", "Los Angeles Intl.", "Los Angeles", "CA", 84, false)
+new Airport("HOU", "Hobby", "Houston", "TX", 80, false)
+
+
+Please bring forward the practices, techniques, and tools you have learned so far. This includes: 
+Good code quality
+Lightweight design
+Minimum code
+Automated testing                                                         
+Code coverage
+Continuous integration
+
+Once you complete coding, please answer the following:
+
+1. What design principles did you use in this assignment? Discuss.
+
+A design principle that we used repeatedly during this assignment is OCP. We had to write our code in a way that would be open to us extending
+it but not have us modifying or previous code to accomdate for the extensions. The way we did this is we kept low coupling by seperating the 
+criteria to sort into seperate files in one directory. That way we could add more criteria files in directory without having to adjust the previous criteria. 
+
+This led us to have program that we had to account for an everchanging amount of criterias to sort. So we wrote a program that checked the folder and since
+our naming convention was the same we could always find what we are sorting no matter what they were called. By looping through the files to find the available criteria
+we don't have to change on how we find criterias just keep the naming convention the same when adding criterias.
+
+Another princple we used was SLAP. We used it on our functions for fetch_a_criterion and process_airport. It gives us overall easier to read code.
+This allows us to understand it even if one of us didn't directly work on the function and be able to use it when they moved on to next step.
+
+2. Any interesting lessons you learned in this assignment? Discuss.
+
+One lesson I learned was very important is the OCP principle. It really makes our lives easier as the code got more and more complicated. It would
+give us a clear path of direction whenever we extended our code and limit changes in the rest of our code. After applying OCP, we saw how this practices
+could help us in our professional lives if we have software we will have to maintain and evolve.
+
+Using the principles allowed us to work indepedently and together much easier. Overall it made it so we could understand each others code and clearly see
+the logic and path to take moving forward. We can see how this would be a gamechanger for a large company with a lot of developers working on a project.
+
+
+3. Any surprises or things that you did not expect? Discuss.
+
+We did not expect to really split up criteria_to_sort. I feel like normally the first instinct is to bunch them all into one file and claim
+that it is cohesive since they are all sorting methods. We can see how this can lead to coupling issues which is why OCP is such a good principle
+to keep in mind with other principles.
+
+We were suprised how easy to UI was able to be implemented once we got all the logic down. Any issues on logic were solved since we were able to clearly know
+each bit of logic was working as intended using test. Overall although more difficult to get it down in the beginning it is, the processes remove
+headaches later down the line that make them well worth the investment.
+
+Total [100]: 97
+Program works as expected [20]:
+All tests pass [10]:
+Test quality [10]:
+Code coverage [10]:
+Design quality [10]:
+Design for extensibility to add sort criteria without code change [20]:
+Code quality [10]:
+
+Response to questions [10]: -3
+SRP, DRY, YAGNI, DIP
+
+spellcheck

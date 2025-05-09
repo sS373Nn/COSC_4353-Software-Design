@@ -1,0 +1,262 @@
+[Reviewed 10/04/24 04:52 AM MDT]
+synopsis: a few things to improve
+
+details:
+
+Please see suggestions in files.
+
+> paver run
+---> pavement.run
+python src/gui.py
+> 
+
+Nothing happened, no GUI popped up.
+
+------------------------------------------------------------------------------
+[Reviewed 10/02/24 18:22 PM MDT]
+synopsis: let's rethink and move forward
+
+details:
+
+Please see suggestions in files.
+
+Let's make the GUI intuitive to use.
+
+Top panel, colors to choose from (not words, but colors).
+
+Two columns of rows.
+
+
+  C C C C C C C C C C
+
+  C C C C C C    B B B B B B
+  C C C C C C    B B B B B B
+  C C C C C C    B B B B B B
+  C C C C C C    B B B B B B
+  C C C C C C    B B B B B B
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+  _ _ _ _ _ _    _ _ _ _ _ _
+
+C is a color (not word). B is either Black, Silver, or Gray.
+_ is an empty space to fill (can be shown as a empty box)
+
+User know show many turns are left based on the number of rows of empty boxes.
+
+
+------------------------------------------------------------------------------
+[Reviewed 10/01/24 07:27 AM MDT]
+synopsis: let's revisit a few things
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/30/24 07:01 AM MDT]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/27/24 05:24 AM MDT]
+synopsis~: let's take another look at the tests
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/26/24 07:06 AM MDT]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/25/24 13:51 PM CDT]
+synopsis: let's discuss
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/24/24 06:24 AM CDT]
+synopsis: let's think of the data type to use
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/23/24 22:09 PM CDT]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a quick review.
+
+------------------------------------------------------------------------------
+[Reviewed 09/21/24 16:47 PM MDT]
+synopsis: let's refactor
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/21/24 16:05 PM MDT]
+synopsis~: let's reduce code
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/20/24 18:05 PM MDT]
+synopsis: good work so far
+
+details:
+
+Good work so far. Let's turn the implementation into functional style instead of imperative style.
+
+------------------------------------------------------------------------------
+[Reviewed 09/20/24 15:51 PM MDT]
+synopsis: good so far
+
+details:
+
+Good so far. Let's write more tests for guess.
+
+------------------------------------------------------------------------------
+[Reviewed 09/20/24 13:49 PM MDT]
+synopsis~: let's tweak the tests
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/20/24 06:34 AM MDT]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/19/24 21:08 PM MDT]
+synopsis: let's remove unnecessary code
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/19/24 20:30 PM MDT]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a quick review.
+
+------------------------------------------------------------------------------
+[Reviewed 09/19/24 18:20 PM MDT]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a quick review.
+
+------------------------------------------------------------------------------
+[Reviewed 09/18/24 17:59 PM MDT]
+synopsis: let's revisit the design
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/18/24 12:26 PM MDT]
+synopsis~: red or yellow in code coverage
+
+details:
+
+Please take a look at the code coverage and make sure the coverage shows 100%.
+After fixing the coverage (or ask for help if you need), please ask for review.
+
+------------------------------------------------------------------------------
+[Reviewed 09/18/24 10:06 AM MDT]
+synopsis~: let's change directions
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 09/18/24 05:56 AM MDT]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a quick review.
+
+
+------------------------------------------------------------------------------
+[Reviewed 09/15/24 08:18 AM CDT]
+synopsis~: build shows code not covered by tests
+
+details:
+
+Build shows coverage report that indicates we wrote code not covered by tests. Please remove code not covered by tests. If you need help, please drop an email.
+
+Also, please remove comments from code and instead write code that is self-expressive.
+
+------------------------------------------------------------------------------
+[Reviewed 09/14/24 05:37 AM CDT]
+synopsis: let's get the files into the necessary structure
+
+details:
+
+Please delete pythontests.txt.
+
+Let's start with the files I have provided as a starting point.
+
+Let's write one or two tests after the canary test and minimum code for those tests to pass.
+
+A CI build has been setup for your project.
+You can see files related to this under assign1.
+
+How does this work?
+When you check in code, the CI build machine wakes up, fetches the latest 
+version of your code, and runs the file build.sh that is under your repository (above assign1). That file in turn runs the build scripts in your assign1 directory.
+
+In case you missed it, please read:
+<https://groups.google.com/g/uhcsf24sd/c/UtlbmTRtJAA/m/8BMXBo0JAQAJ>
+
+Also, please keep an eye on code coverage. To view the code coverage, please 
+run the build using the following command (do not click or double click, 
+instead open the command prompt, cd to your assign1 directory, and then run 
+from there).
+
+paver
+Then take a look at the file (using a browser):
+htmlcov/index.html
+
+------------------------------------------------------------------------------

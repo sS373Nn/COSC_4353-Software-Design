@@ -1,0 +1,24 @@
+[Reviewed 11/07/24 06:02 AM CET]
+synopsis: let's bring in examples that show greater depth
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/06/24 05:54 AM CET]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a quick review.
+
+------------------------------------------------------------------------------
+Ω[Reviewed 11/05/24 09:47 AM CET]
+synopsis: a few things to expand upon
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------

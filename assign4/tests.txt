@@ -1,0 +1,46 @@
+x canary test
+ 
+x given a lower-case letter UpperCase returns upper-case letter
+x given an upper-case letter UpperCase returns upper-case letter
+x given a non-letter symbol UpperCase returns the same symbol
+
+x given a lower-case letter LowerCase returns lower-case letter
+x given an upper-case letter LowerCase returns lower-case letter
+x given a non-letter symbol LowerCase returns the same symbol
+
+x given a lower-case letter Multiplier returns two of the same lower-case letters
+x given an upper-case letter Multiplier returns two of the same upper-case letters
+x given a non-letter symbol Multiplier returns the two of same symbol
+x given a number Multiplier returns two of the same number
+
+x given a lower-case z small_z_blocker returns an empty string
+x given an upper-case z small_z_blocker returns upper-case z
+x given a non-letter symbol small_z_blocker returns the same symbol
+x given a number small_z_blocker returns the same number
+
+x given an upper-case Z big_z_blocker returns an empty string
+x given a lower-case z big_z_blocker returns lower-case z
+x given a non-letter symbol big_z_blocker returns the same symbol
+x given a number big_z_blocker returns the same number
+
+x given a lower-case k small_k_blocker returns an empty string
+x given an upper-case k small_k_blocker returns upper-case k
+x given a non-letter symbol small_k_blocker returns the same symbol
+x given a number small_k_blocker returns the same number
+
+x process_text takes string and no blocks, returns given string
+x process_text takes string and uppercase block, returns string in uppercase
+x process_text takes string and lowercase block, returns string in lower case
+x process_text takes string and multiplier block, returns string with letters repeated
+x process_text takes two blocks applies the first, and then the second block
+
+x process_text takes string "abzde" and uppercase block and Z blocker
+x process_text takes string "abzde" and Z blocker and uppercase
+x process_text takes string "abzde" and uppercase and multiplier
+x process_text takes string "abzde" and Z blocker, uppercase, and multiplier
+
+x given the string "uppercase converter" fetch_block returns the appropriate function
+x test given the string "lowercase converter" fetch_block returns the appropriate function
+x test given the string "multiplier converter" fetch_block returns the appropriate function
+x test given the string "big z converter" fetch_block returns the appropriate function
+x test given the string "small k converter" fetch_block returns the appropriate function

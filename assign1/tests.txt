@@ -1,0 +1,29 @@
+x canary 
+x guess with all colors match in position
+x guess with all colors mismatch
+x guess with all colors match out of position
+x guess with first four colors match in position
+x guess with last four colors match in position
+x guess with first three colors match in position and the last three match out of position
+x guess with first and third color mismatch, second in position, and the others match out of position
+x guess with the first color in the selected colors repeated from position two to six, with first position in the guess having the second color in selection
+x guess with the first color in the selected colors repeated from position two to six, with first position in the guess having no match
+x play for the 1st attempt with exact match
+x play for the 1st attempt with no match
+x play for the 1st attempt with some exact and some non-exact match
+x play for the 2nd attempt with exact match
+x play for the 2nd attempt with no match
+x play for the 20th attempt with exact match
+x play for the 20th attempt with no match
+x play for the 21st attempt with exact match
+x play for the 21st attempt with no match
+x randomize selected colors given
+x randomized selected colors is different when called twice
+
+x Let's add a run task to the build to we can run
+x paver test
+x to run the tests
+x paver run
+x to run the GUI
+
+-let's create the GUI

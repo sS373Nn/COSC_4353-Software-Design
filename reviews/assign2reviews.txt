@@ -1,0 +1,221 @@
+[Reviewed 10/17/24 06:18 AM EDT]
+synopsis: missing a test and tight coupling
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/16/24 18:57 PM EDT]
+synopsis: run into issue
+
+details:
+
+>paver
+...
+ModuleNotFoundError: No module named 'requests'
+
+
+------------------------------------------------------------------------------
+[Reviewed 10/16/24 18:26 PM EDT]
+synopsis: a few things to improve
+
+details:
+
+Please see suggestions in files.
+
+>paver
+...
+ModuleNotFoundError: No module named 'requests'
+
+------------------------------------------------------------------------------
+[Reviewed 10/16/24 07:51 AM EDT]
+synopsis: let's rework and move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/14/24 20:29 PM MDT]
+synopsis: good so far
+
+details:
+
+Good so far. Let's move forward to the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 10/14/24 13:22 PM MDT]
+synopsis: let's revisit the test
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/13/24 12:10 PM MDT]
+synopsis: let's change direction
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/13/24 11:56 AM MDT]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a quick review.
+
+------------------------------------------------------------------------------
+[Reviewed 10/13/24 04:33 AM MDT]
+synopsis~: let's make it fluent and move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/12/24 18:50 PM MDT]
+synopsis: let's make it fluent
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/12/24 07:28 AM MDT]
+synopsis: good so far
+
+details:
+
+Good so far. Let's move forward to the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 10/11/24 17:58 PM MDT]
+synopsis: relevant code
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/11/24 16:55 PM MDT]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a quick review.
+
+------------------------------------------------------------------------------
+[Reviewed 10/11/24 06:41 AM MDT]
+synopsis: SLAP and let the stubs be simple and relevant
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/10/24 17:42 PM MDT]
+synopsis: let's check the tests
+
+details:
+
+Please see suggestions in files. Please make sure to address the feedback notes.
+
+------------------------------------------------------------------------------
+[Reviewed 10/10/24 10:32 AM MDT]
+synopsis: code should invite the reader
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/09/24 19:28 PM EDT]
+synopsis: let's move forward to the next test
+
+details:
+
+Good so far. Let's move forward to the next test.
+
+------------------------------------------------------------------------------
+[Reviewed 10/09/24 19:09 PM EDT]
+synopsis: refactoring suggested in the previous review was ignored
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/09/24 18:44 PM EDT]
+synopsis: let's move forward to the next test
+
+details:
+
+Good so far. Let's move forward to the next test.
+
+------------------------------------------------------------------------------
+[Reviewed 10/09/24 16:10 PM EDT]
+synopsis: let's check the test
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/09/24 18:11 PM CEST]
+synopsis: do we want to hard code?
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/09/24 07:48 AM CEST]
+synopsis: commented out code found
+
+details:
+
+Smelly, commented out code found.
+
+------------------------------------------------------------------------------
+[Reviewed 10/09/24 06:10 AM CEST]
+synopsis: YAGNI
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/09/24 05:04 AM CEST]
+synopsis~: let's take the next step
+
+details:
+
+Let's take the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 10/08/24 19:30 PM CEST]
+synopsis: did not find the tests
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/08/24 04:33 AM CEST]
+synopsis~:  let's integrate CI
+
+details:                     
+
+No CI yet.
+
+The CI server is not building assign2 yet. Please fix build.sh to point to assign2 directory to build. If you need help with that please ask.
+
+Please do not commit files and directories generated during the build, like htmlcov.
+
+Reading a file is the least interesting bit, let's start with an action that will get us directly into designing the logic. Please see suggestions in files.
+
+------------------------------------------------------------------------------

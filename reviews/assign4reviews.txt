@@ -1,0 +1,175 @@
+[Reviewed 11/21/24 04:51 AM MST]
+synopsis: let's check the interactions
+
+details:
+
+Blocks available: - no, the are the blocks that have been selected by the user, in that order to apply.
+
+Do you want to add a block? y/n  - no need for that question. They can add in the file if the like.
+
+Please make sure to doublecheck everything and look for any improvements in code.
+
+Please remember to address the questions in assign4.txt.
+
+------------------------------------------------------------------------------
+[Reviewed 11/20/24 17:34 PM MST]
+synopsis: good so far
+
+details:
+
+Good so far.
+
+Let's move forward to create the console program
+
+When the program is run, let's read a blocks.txt file from within assign4/data directory. Let the file have the blocks, in sequence: uppercase converter, Z blocker, multiplier
+
+When the program is run, let us list the blocks the user has chosen, in sequence.
+
+Then ask user for a text and display the output of the text processed.
+
+------------------------------------------------------------------------------
+[Reviewed 11/20/24 13:36 PM MST]
+synopsis: let's move forward to the next few tests
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/20/24 12:56 PM MST]
+synopsis: good so far
+
+details:
+
+Good so far. Let's move forward to the next step.
+
+
+------------------------------------------------------------------------------
+[Reviewed 11/20/24 12:18 PM MST]
+synopsis: let's check the tests
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/20/24 10:40 AM MST]
+synopsis: let's refactor
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/20/24 10:02 AM MST]
+synopsis~: let's rework the tests
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/19/24 17:49 PM MST]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a quick review.
+
+------------------------------------------------------------------------------
+[Reviewed 11/19/24 05:16 AM MST]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a quick review.
+
+------------------------------------------------------------------------------
+[Reviewed 11/18/24 16:07 PM MST]
+synopsis: let's tweak the tests a bit
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/17/24 17:50 PM MST]
+synopsis: let's move forward to the next step
+
+details:
+
+Let's move forward to the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 11/15/24 16:04 PM MST]
+synopsis: let's keep it DRY
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/15/24 05:58 AM MST]
+synopsis: let's refactor and move forward
+
+details:
+
+Please see suggestions in files.
+
+Let's move forward to the next two blockers.
+
+------------------------------------------------------------------------------
+[Reviewed 11/13/24 17:11 PM MST]
+synopsis: let's take the next step
+
+details:
+
+Please see suggestions in files.
+
+Let's take the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 11/13/24 04:55 AM MST]
+synopsis: let's take the next step
+
+details:
+
+Please see suggestions in files.
+
+Let's take the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 11/12/24 06:37 AM MST]
+synopsis: design principles
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/11/24 06:14 AM MST]
+synopsis: let's take the next step
+
+details:
+
+Please see suggestions in files.
+
+Let's take the next step.
+
+------------------------------------------------------------------------------
+[Reviewed 11/10/24 11:21 AM MST]
+synopsis: let's check the name
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 11/09/24 06:38 AM MST]
+synopsis~: good start
+
+details:
+
+Good start, let's tweak the tests a bit.
+
+------------------------------------------------------------------------------

@@ -1,0 +1,158 @@
+[Reviewed 10/31/24 04:53 AM MDT]
+synopsis: OCP
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/30/24 12:36 PM MDT]
+synopsis: a few things to improve
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/30/24 11:32 AM MDT]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a quick review.
+
+------------------------------------------------------------------------------
+[Reviewed 10/30/24 05:21 AM MDT]
+synopsis: let's refactor and move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/29/24 17:17 PM MDT]
+synopsis: feedback ignored
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/29/24 08:52 AM MDT]
+synopsis: be stuck or use the feedback, your choice
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/29/24 05:28 AM MDT]
+synopsis~: let's check the test
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/28/24 05:07 AM CDT]
+synopsis: let's move forward
+
+details:
+
+Let's move forward to the next step. Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/27/24 18:05 PM CDT]
+synopsis: let's check where the files are
+
+details:
+
+All the criteria files are dumped right now into the src directory. Is there a better way to organize these files?
+
+------------------------------------------------------------------------------
+[Reviewed 10/27/24 08:35 AM CDT]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/26/24 06:21 AM CDT]
+synopsis: let's avoid strings
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/25/24 05:19 AM CDT]
+synopsis: OCP
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/24/24 17:01 PM MDT]
+synopsis: let's move forward
+
+details:
+
+Let's move forward to the next test.
+
+------------------------------------------------------------------------------
+[Reviewed 10/24/24 09:49 AM CEST]
+synopsis: let's move forward
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/23/24 21:19 PM CEST]
+synopsis: write a lot, delete a lot
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/22/24 16:02 PM CDT]
+synopsis: let's tweak the test
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/22/24 11:06 AM CDT]
+synopsis: 
+
+details:
+
+------------------------------------------------------------------------------
+[Reviewed 10/22/24 07:38 AM CDT]
+synopsis~: let's clean up
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/20/24 06:05 AM MDT]
+synopsis: let's change direction
+
+details:
+
+Please see suggestions in files.
+
+------------------------------------------------------------------------------
+[Reviewed 10/19/24 06:36 AM EDT]
+synopsis: missing tests.txt
+
+details:
+
+Missing tests.txt
+
+------------------------------------------------------------------------------

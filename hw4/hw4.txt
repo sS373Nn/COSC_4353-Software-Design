@@ -1,0 +1,36 @@
+HW4 Due 11:59PM December 06
+
+***Please review the top part of ../hw1/hw1.txt***
+***There will be no reviews for this Homework***
+***Please remember to follow the things that were emphasized throughout this course on writing***
+***Please see the details in the requestReviews.txt file***
+
+Feel free to give answers collectively, and also if you want to, you can call out something specific to yourself different from your team member. Bring out your learnings and reflect on them here. Take the time to write.
+
+Please remember to write in multiple short paragraphs. Bring out as much details and depth as you can, to reflect on your learnings and insights.
+
+1. What did you essentially learn in this course about design?
+                                
+Please provide individual responses to this question here (state your name and write in short paragraphs below that).
+
+My name is Luis Santiago Ramos. What I essentially learned about this course is software design was the value of writing good code even when it takes more effort. I learned as a programmers at our university, all of us have come to a point where we can deliver a finished product in the area of software/programming, but we haven't all been introduced the good practices in doing so. These good practices can help us and our team members help extend, adapt, and maintain our code. This course taught us the value of short and repetitive feedback that will be apart of us in every team software environment.
+
+This course taught us the value of test driven development which can be so helpful in ensuring our logic in our code is working as intended. It's relatively easy to spot syntax errors in this day and age of programming so the hard part is usually the logic errors in complex systems. Testing can help create and also maintain code as the errors will help us understand where our logic is not working as intended. This will save time when it comes to maintaining and also help when extending code as the test you build and previous test will serve as a valuable tool as you develop.
+
+This course taught us about object oriented programming. This topic has been covered to death by other classes, however this course shows us the pitfalls of how it is taught to us normally which give way to issues whether it lead to higher coupling and lower cohesion. Giving us a valuable lesson on even if things can be done using one of the four main principles of OOP, thinking of the consequences of using it should be at the forefront of someone's mind.
+
+Finally this course taught us about design principles and patterns. These aren't the hard coded rules that every programmer has to be forced to follow. However they are useful when it comes to programming to keep an eye out for as they help programmers avoid common pitfalls most of us usually fall into. We were taught although the patterns are a true one size fit all that must always be used, often they can help tackle a certain type of problem and can help a programmer think about problems in a new lens.
+
+
+My name is David Colin Cooper. What I learned in this class, I think, can be summed up quite well by the old adage "The best way to eat an elephant is one bite at a time." Test-Driven Development is the process of planning, testing, and readjusting just how you're going to dice that pachyderm up and not choke on the pieces. If a bite turns out a bit too big, readjust and refactor. With proper communication between teammates (because who wants to eat an elephant alone?), and feedback from the customer (since they're the ones paying for this meal, after all), EVERYONE will be fatter and happier by the end of the process. (Except maybe the elephant)
+
+Aside from the general answer of listing things we discussed during lectures, the biggest takeaway for me was a boost in confidence in writing programs and a better understanding of how to use testing more as a tool to build relevant, efficient code that creates a more manageable and approachable workflow even for very large and intimidating projects. 
+
+In addition, I've now added some very useful tools to my Continuous Integration toolkit, TortoiseSVN, Jenkins, pavement, etc. This semester was my first time ever working with any of these things, and while I may have gotten off to a slow start, working with them over the semester has made me grow much more fond of their convenience and usefulness, especially with regard to how helpful they can be for working with a team.
+
+Finally, I'd like to mention experience. The experience of being tasked with new problems, or even old problems, but being given new tools and ideas to use to solve them. At the micro level concepts like KISS, SRP, OCP, DRY, and the like give us guidelines to help keep code efficient and extensible, making what we write easier to read and understand, which in turn makes it easier to modify in the future when we inevitably come back to update it based on how it fits into our project. While at the macro level the design principles, patterns and methods such as the Builder pattern, the Decorator pattern and the Factory method give us the framework to set our code into, allowing us to build up to much more complicated architecture that makes up more complex programs whose scope and capabilities exceed what we expect capable given its basic parts.
+
+
+2. What are some of the general guidelines you would follow when designing?
+
+When designing, we plan to follow several key guidelines to ensure quality and efficiency. First, we will emphasize test-driven development, writing tests before implementation to guide the process and validate functionality and logic early on. Regular quick code reviews will be a priority, focusing on small, manageable segments to facilitate thorough feedback and improvements. We will also adhere to fundamental coding principles, such as DRY (Don't Repeat Yourself), YAGNI, and KISS (Keep It Simple, Stupid), applying them consistently throughout development. Additionally, we will carefully evaluate the impact of our code, considering its consequences and actively seeking opportunities to refine refactor. Simplicity and readability will be a point of emphasis as complicated code is hard to maintain. Finally, we will pay close attention to cohesion and coupling, striving for highly cohesive modules with low coupling to promote modularity, testability, and scalability.
